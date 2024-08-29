@@ -19,5 +19,6 @@ public class Manager extends Employee {
     public void displayEmployeeInfo() {
         super.displayEmployeeInfo();
         System.out.println("Bonus: " + bonus);
+        System.out.println("Total Salary: " + calculateTotalSalary());
     }
 }
